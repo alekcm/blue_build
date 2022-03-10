@@ -1,0 +1,36 @@
+* {
+  font-family: monospace;
+  margin: 0; padding: 0;
+}
+
+body {
+  background: #004077;
+  overflow: hidden;
+  font-size: 17px;
+}
+
+canvas {
+  margin: auto;
+  max-width: 100vw;
+  height: 100vh;
+  display: block;
+  aspect-ratio: 16/9;
+}
+
+a {
+  color: #ccc;
+  text-decoration: underline;
+}
+
+.info {
+  width:100%;
+  padding:12px;
+  box-sizing: border-box;
+}
+
+/* progress bar */
+
+#unity-loading-bar { width: 100%; height: 100%; position: absolute; left: 0; top: 0; display: flex; justify-content: center; align-items: center; flex-direction: column; }
+#unity-logo { width: auto; aspect-ratio: 172 / 123; height: 25%; background: url('../unity-logo-dark.png') no-repeat center/100% 100% }
+#unity-progress-bar-empty { width: auto; height: 4%; aspect-ratio: 16 / 2.05; margin-top: 10px; background: url('../progress-bar-empty-dark.png') no-repeat center/100% 100% }
+#unity-progress-bar-full { width: 0%; height: 100%; background: url('../progress-bar-full-dark.png') no-repeat center/100% 100% }
